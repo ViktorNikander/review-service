@@ -43,8 +43,8 @@ jobs:
           context: .
           push: true
           tags: |
-            viktornikander/booking:latest
-            viktornikander/booking:${{ github.sha }}
+            viktornikander/review-service:latest
+            viktornikander/review-service:${{ github.sha }}
 
       # 7. Redeploy on Railway
       - name: Redeploy on Railway
